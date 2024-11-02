@@ -1,0 +1,74 @@
+@use "sass:color";
+
+
+$font-family-serif: "DM Serif Display", serif;
+$font-family-sans-serif: "Manrope", sans-serif;
+
+$primary-color: #B3DB8A;
+$secondary-color: #556E56;
+$text-color: #3B3B3B;
+$white-color: #FFFFFF;
+$background-color: #F4F5F4;
+$background-footer: #E2E7EA;
+
+$font-size-xs: 1rem; // 16px
+$font-size-sm: 1.2rem; // 18px
+$font-size-md: 2rem; // 32px
+$font-size-lg: 3.1rem; // 48px
+$font-size-xl: 5rem; // 80px
+
+$font-letters-spacing-base: 0.6px;
+
+
+$breakpoint-small-mobile: 390px;
+$breakpoint-tablet: 600px;
+$breakpoint-desktop: 1200px;
+
+$fa-font-path: './../../../node_modules/@fortawesome/fontawesome-free/webfonts';
+
+
+/* @import "./../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "./../../../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "./../../../node_modules/@fortawesome/fontawesome-free/scss/regular";
+@import "./../../../node_modules/@fortawesome/fontawesome-free/scss/brands";
+
+ */
+
+
+
+
+/* $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol";
+$font-family-serif: "Georgia", "Times New Roman", serif;
+
+$uoc-corporate: #000078;
+$uoc-masterbrand: #73edff;
+$uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
+
+$mqMinWidth: 420px; */
+
+
+/* .dm-serif-display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-display-regular-italic {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+ */
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 800
+
+/* .manrope-<uniquifier> {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+ */
