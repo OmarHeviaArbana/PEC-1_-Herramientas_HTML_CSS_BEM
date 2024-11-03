@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const menu = document.querySelector(".header__navbar-list");
   const icon = document.querySelector(".fa-bars");
 
-
   toggleButton.addEventListener("click", function () {
     menu.classList.toggle("header__navbar-list--active");
     icon.classList.toggle("fa-circle-xmark");
