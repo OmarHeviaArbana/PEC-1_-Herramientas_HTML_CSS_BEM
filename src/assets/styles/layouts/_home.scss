@@ -18,7 +18,7 @@ body {
   background-position: center;
   background-size:     cover;
 
-  @media (min-width: $breakpoint-tablet) { background-image:    url(/src//assets/images/header-image/header-image-600w.png); }
+  @media (min-width: $breakpoint-tablet) { background-image: url(/src//assets/images/header-image/header-image-600w.png); }
 
   @media (min-width: $breakpoint-desktop) {
     height:              840px;
@@ -344,9 +344,14 @@ body {
     }
     &--access-route {
       padding: 20px 20px;
+
       @media (min-width: $breakpoint-desktop) {
-        padding: 0 0px 20px;
-        margin:  0 10% auto;
+        display:        flex;
+        flex-direction: row;
+        gap:            40px;
+        align-items:    flex-start;
+        padding:        20px 0 20px;
+        margin:         0 10% auto;
       }
     }
 
@@ -355,6 +360,17 @@ body {
       @media (min-width: $breakpoint-desktop) {
         padding: 0 0px 20px;
         margin:  0 10% auto;
+      }
+
+    &--text-container {
+      padding: 0 20px 20px;
+
+      @media (min-width: $breakpoint-desktop) {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        align-items: center;
+        }
       }
     }
   }
@@ -394,7 +410,7 @@ body {
 
     &--separator {
       width:       100px;
-      margin-left: 0px;
+      margin-left: 0;
       color:       $secondary-color;
     }
   }
@@ -457,6 +473,10 @@ body {
       @media (min-width: $breakpoint-tablet) {
         max-height: 530px;
         object-fit: contain;
+      }
+
+      @media (min-width: $breakpoint-desktop) {
+       margin-top: 80px;
       }
     }
 
@@ -552,7 +572,6 @@ body {
   &__logotipo {
     width: 150px;
     height: auto;
-
     &:hover { cursor: pointer; }
 
     @media (min-width: $breakpoint-desktop) { width: 170px; }
@@ -615,6 +634,5 @@ body {
     }
   }
 }
-
 
 /***** End Footer *****/
