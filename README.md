@@ -1,8 +1,31 @@
-# UOC Boilerplate
+# Turismo Asturias Rutas al Paraiso landing page
 
-UOC Boilerplate is a starter template for the HTML and CSS Tools courses from the [Master's Program in Multimedia Applications](https://estudis.uoc.edu/ca/masters-universitaris/aplicacions-multimedia/presentacio) and the [Master's Program in Web App and Website Development](https://estudis.uoc.edu/ca/masters-universitaris/desenvolupament-llocs-aplicacions-web/presentacio) at the [Universitat Oberta de Catalunya](https://www.uoc.edu). It aims to provide a basic, modern frontend web development starter pack based on Parcel and including a Sass compiler, an ES6 transpiler, minifiers, an image transformer, and development tools.
+<image style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;" src="src/assets/images/miniatura.png" alt="Turismo Asturias Rutas al paraiso landing page">
 
-This is the 3.x version of UOC Boilerplate, available since the UOC 2020-2 semester.
+## Link
+
+https://asturias-rutas-al-paraiso.netlify.app
+
+
+## Descripción
+
+Prototipo de sitio web de tuismo del Principado de Asturias a modo de landing utilizando Sass y siguiendo la metodología BEM y el control de las hojas de estilo con Stylelint.
+
+**Autor:** Omar Hevia Arbana
+**Fecha:** Octubre 2024
+
+---
+
+# Tourism Asturias: Routes to Paradise Landing Page
+
+## Description
+
+Prototype of a tourism website for the Principality of Asturias in the form of a landing page, using Sass and following the BEM methodology, with stylesheet control managed by Stylelint.
+
+**Author:** Omar Hevia Arbana
+**Date:** Octubre 2024
+
+---
 
 ## Requirements
 
@@ -60,9 +83,3 @@ Always run the following commands during the development stage and for productio
 | `npm run build` | Compiles and minifies and optimizes the files in the assets folder. The generated compiled and optimized files are located in the `dist/` folder. This is what _must be run_ before publishing the project. This is also the build command to be run by external deployment services such as Netlify. The publishable files are then located in the `dist/` folder. |
 | `npm run clean` | Deletes the current `/dist` folder and cache folders.                                                                                                                                                                                                                                                                                                               |
 | `npm run test`  | Displays a success message if everything is working as expected.                                                                                                                                                                                                                                                                                                    |
-
-## Need help? / Want to help out?
-
-Feel free to create a [new issue](https://github.com/uoc-advanced-html-css/uoc-boilerplate/issues/new/) or drop me a line at jorditarrida@uoc.edu.
-
-Are you using this Boilerplate for your projects or for educational purposes? I would love to hear about it!
